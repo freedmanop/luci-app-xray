@@ -20,7 +20,7 @@ jobs:
         include:
           - arch: x86_64
             sdk_url_path: https://downloads.openwrt.org/snapshots/targets/ramips/mt7621/
-            sdk_name: -sdk-23.05.2-ramips-mt7621_gcc-12.3.0_musl.Linux-x86_64
+            sdk_name: -sdk-x86-64_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
